@@ -1,0 +1,13 @@
+create an environment
+python -m venv utiva_env
+
+activate the environment
+utiva_env\scripts\activate
+
+install dependencies
+python -m pip install fastapi
+
+install dependencies - several dependencies**
+python -m pip install numpy pandas sklearn uvicorn
+
+http://127.0.0.1:8000/docs
